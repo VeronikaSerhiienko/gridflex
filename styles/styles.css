@@ -127,13 +127,13 @@
 .flexlist {
   flex-shrink: 0;
   height: 300px;
-  width: calc((100% - 100px) * 0.65);
+  width: calc(100% - 100px) ;
 }
 
 .flexfooter {
    height: 150px;
    flex-shrink: 0;
-   width: calc(100% - ((100% - 100px) * 0.35));
+   width: 100% ;
  
   align-self: flex-end;
 }
