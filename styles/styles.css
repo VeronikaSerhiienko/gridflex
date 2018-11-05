@@ -101,8 +101,6 @@
 
 .headerblock {
   display: flex;
-  
-
 }
 
 .mainblock {
@@ -150,6 +148,6 @@
 }
 
 .flexmenu {
- width: calc(100% - 100px);
+  width: calc(100% - 100px);
   height: 100px; 
 }
