@@ -30,13 +30,13 @@
 }
 
 .navigation {
-	background-color: #333333;
+  background-color: #333333;
   color: white;
   text-transform: uppercase;
 }
 
 .news {
-	background-color: #996666;
+  background-color: #996666;
   color: white;
   text-transform: uppercase;
   border-right: 1px solid black;
@@ -44,7 +44,7 @@
 }
 
 .menu {
-	background-color: #990000;
+  background-color: #990000;
   color: black;
   text-transform: uppercase;
   border-bottom: 1px solid black;
@@ -68,9 +68,9 @@
 /*grid*/
 
 .container {
-	display: grid;
-	grid-template-columns: 100px 13fr 7fr;
-	grid-template-rows: 100px 300px 150px;
+  display: grid;
+  grid-template-columns: 100px 13fr 7fr;
+  grid-template-rows: 100px 300px 150px;
 }
 
 .gridlogo {      
@@ -115,17 +115,14 @@
   flex-wrap: wrap;
 }  
 
-
 .flexlogo {  
   width: 100px;
-  height: 100px;
-  
+  height: 100px;  
 }
 
 .flexlist {
-  flex-shrink: 0;
   height: 300px;
-  width: calc(100% - 100px);
+  flex: 1;
 }
 
 .flexfooter {
@@ -137,17 +134,15 @@
 .flexnavigation {
   flex-shrink: 0;
   height: 450px;
-  width: calc((100% - 100px) * 0.35);
+  flex: 1;
 }
 
 .flexnews {
   width: 100px;
-  height: 300px;
-  flex-shrink: 0;
-  
+  height: 300px;  
 }
 
 .flexmenu {
-  width: calc(100% - 100px);
+  flex: 1;
   height: 100px; 
 }
