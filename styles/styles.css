@@ -9,21 +9,21 @@
 }
 
 .logo {
-  background-color: #cc9933;
+  background-color: #CC9933;
   text-transform: uppercase;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
 }
 
 .list {
+  background-color: #CC9933;     
+  text-transform: uppercase;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  background-color: #cc9933;     
-  text-transform: uppercase;
 }
 
 .footer {
-  background-color: #cc9933;
+  background-color: #CC9933;
   color: black;
   text-transform: uppercase;
   border-right: 1px solid black;
@@ -111,34 +111,35 @@
 .leftblock {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   width: calc((100% - 100px) * 0.65 + 100px);
+  flex-wrap: wrap;
 }  
 
-.flexlogo {
+.flexlogo {  
+  width: 100px;
   height: 100px;  
-  width: 100px;  
 }
 
 .flexlist {
-  flex: 1;
   height: 300px;
+  flex: 1;
 }
 
 .flexfooter {
-  flex: 1;
-  flex-shrink: 0;
-  height: 150px; 
+   height: 150px;
+   flex-shrink: 0;
+   width: 100% ; 
 }
 
 .flexnavigation {
-  flex: 1;
+  flex-shrink: 0;
   height: 450px;
+  flex: 1;
 }
 
 .flexnews {
-  height: 300px;
-  width: 100px;  
+  width: 100px;
+  height: 300px;  
 }
 
 .flexmenu {
