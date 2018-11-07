@@ -104,14 +104,13 @@
 }
 
 .mainblock {
-  display: flex;
-  flex-direction: row;
+  display: flex;  
 }
 
 .leftblock {
   display: flex;
-  flex-direction: row;
-  width: calc((100% - 100px) * 0.65 + 100px);
+  flex-basis: 100px;
+  flex-grow: 65;
   flex-wrap: wrap;
 }
 
@@ -122,7 +121,7 @@
 
 .flexlist {
   height: 300px;
-  flex: 1;
+  flex-grow: 1;
 }
 
 .flexfooter {
@@ -132,7 +131,8 @@
 
 .flexnavigation {
   height: 450px;
-  flex: 1;
+  flex-basis: 0;
+  flex-grow: 35;
 }
 
 .flexnews {
@@ -141,6 +141,6 @@
 }
 
 .flexmenu {
-  flex: 1;
-  height: 100px;
+  flex-grow: 1;
+  
 }
