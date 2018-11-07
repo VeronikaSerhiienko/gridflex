@@ -121,7 +121,7 @@
 
 .flexlist {
   height: 300px;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .flexfooter {
@@ -141,6 +141,5 @@
 }
 
 .flexmenu {
-  flex-grow: 1;
-  
+  flex-grow: 1;  
 }
