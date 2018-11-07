@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.margbottom {
+  margin-bottom: 30px;
+}
+
+.logo {
+  background-color: #CC9933;
+  text-transform: uppercase;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.list {
+  background-color: #CC9933;
+  text-transform: uppercase;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  background-color: #CC9933;
+  color: black;
+  text-transform: uppercase;
+  border-right: 1px solid black;
+}
+
+.navigation {
+  background-color: #333333;
+  color: white;
+  text-transform: uppercase;
+}
+
+.news {
+  background-color: #996666;
+  color: white;
+  text-transform: uppercase;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.menu {
+  background-color: #990000;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+.item {
+  display: flex;
+}
+
+
+.text {
+  margin: auto;
+  padding: 0 2px;
+  text-align: center;
+  word-break: break-all;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+/*grid*/
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 13fr 7fr;
+  grid-template-rows: 100px 300px 150px;
+}
+
+.gridlogo {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.gridlist {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.gridfooter {
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+.gridnavigation {
+  grid-area: 2 / 3 / 4 / 4;
+}
+
+.gridnews {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.gridmenu {
+  grid-area: 1 / 2 / 2 / 4;
+}
+
+/*flex*/
+
+.headerblock {
+  display: flex;
+}
+
+.mainblock {
+  display: flex;  
+}
+
+.leftblock {
+  display: flex;
+  flex-basis: 100px;
+  flex-grow: 65;
+  flex-wrap: wrap;
+}
+
+.flexlogo {
+  width: 100px;
+  height: 100px;
+}
+
+.flexlist {
+  height: 300px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.flexfooter {
+  height: 150px;
+  width: 100%;
+}
+
+.flexnavigation {
+  height: 450px;
+  flex-basis: 0;
+  flex-grow: 35;
+}
+
+.flexnews {
+  width: 100px;
+  height: 300px;
+}
+
+.flexmenu {
+  flex-grow: 1;  
+}
