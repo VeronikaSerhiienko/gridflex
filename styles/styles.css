@@ -122,7 +122,7 @@
 .flexlist {
   height: 300px;
   flex-grow: 1;
-  flex-basis: 0;
+  width: 0;
 }
 
 .flexfooter {
